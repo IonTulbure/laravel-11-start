@@ -1,3 +1,3 @@
-<div>
+<x-layout>
     <h1>Index Note</h1>
-</div>
+</x-layout>
