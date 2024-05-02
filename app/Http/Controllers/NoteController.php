@@ -40,7 +40,7 @@ class NoteController extends Controller
             'note' => ['required', 'string']
         ]);
 
-        $data['user_id'] = $request->user()->id;
+        $data['user_id'] = 1;
         $note = Note::create($data);
 
         return to_route('note.show', $note)->with('message', 'Note was created');
