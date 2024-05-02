@@ -7,7 +7,7 @@
             @foreach ($notes as $note)
             <div class="note">
                 <div class="note-body">
-                    {{ $note->note }}
+                    {{ Str::words($note->note, 30) }}
                 </div><!-- note-body -->
                 <div class="note-buttons">
                     <a href="#" class="note-edit-button">View</a><!-- note-edit-button -->
