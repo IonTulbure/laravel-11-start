@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <div class="note-container">
         <a href="{{ route('note.create') }}" class="new-note-btn">
             New note
@@ -28,4 +28,4 @@
         </div>
         <!-- end pagination -->
     </div><!-- note-container -->
-</x-layout>
+</x-app-layout>
