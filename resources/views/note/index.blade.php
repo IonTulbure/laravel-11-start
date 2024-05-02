@@ -21,5 +21,11 @@
             </div><!-- note -->
             @endforeach
         </div><!-- notes -->
+
+        <!-- start pagination -->
+        <div class="p-6">
+            {{ $notes->links() }}
+        </div>
+        <!-- end pagination -->
     </div><!-- note-container -->
 </x-layout>
